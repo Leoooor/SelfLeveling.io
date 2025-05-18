@@ -1,0 +1,8 @@
+0000000000000000000000000000000000000000 0b6330eee036d0a9207ed48793510a7c32359cbf leo <leoronnie07@gmail.com> 1746497027 +0700	commit (initial): massage
+0b6330eee036d0a9207ed48793510a7c32359cbf 6246b422b9d84de86782f73b15d6c74a60b73092 leo <leoronnie07@gmail.com> 1746868852 +0700	commit: push
+6246b422b9d84de86782f73b15d6c74a60b73092 6246b422b9d84de86782f73b15d6c74a60b73092 leo <leoronnie07@gmail.com> 1746868939 +0700	Branch: renamed refs/heads/main to refs/heads/main
+6246b422b9d84de86782f73b15d6c74a60b73092 cbc67e28940adb778bd16fb2156fe59ab8ccca97 leo <leoronnie07@gmail.com> 1747564574 +0700	commit (merge): Merge branch 'main' of https://github.com/Leoooor/SelfLeveling.io
+cbc67e28940adb778bd16fb2156fe59ab8ccca97 a7b36f78cdbc3cb056ee9985651487d39bbde189 leo <leoronnie07@gmail.com> 1747564583 +0700	pull --tags origin main: Merge made by the 'ort' strategy.
+a7b36f78cdbc3cb056ee9985651487d39bbde189 a7b36f78cdbc3cb056ee9985651487d39bbde189 leo <leoronnie07@gmail.com> 1747565029 +0700	Branch: renamed refs/heads/main to refs/heads/main
+a7b36f78cdbc3cb056ee9985651487d39bbde189 f5bd8ac3888419d4ad5e29bc124d8d22a6a00b5a leo <leoronnie07@gmail.com> 1747565397 +0700	pull --tags origin main: Fast-forward
+f5bd8ac3888419d4ad5e29bc124d8d22a6a00b5a a730e530fcce92bd33d5475a5874f5e75f74665a leo <leoronnie07@gmail.com> 1747565778 +0700	commit: added vercel.json file
