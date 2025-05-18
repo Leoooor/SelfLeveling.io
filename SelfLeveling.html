@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Self Leveling - Be Better</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <script>
+        function navigateTo(page) {
+            document.getElementById('home-page').classList.add('hidden');
+            document.getElementById('why-page').classList.add('hidden');
+            document.getElementById('objective-page').classList.add('hidden');
+            document.getElementById(page).classList.remove('hidden');
+        }
+    </script>
+</head>
+<body class="font-sans">
+    <header class="bg-white border-b border-gray-200">
+        <div class="container mx-auto px-4 py-4">
+            <div class="flex justify-between items-center">
+                <div class="flex items-center">
+                    <div class="mr-2">
+                        <img src="https://i.ibb.co.com/spq5Qp3V/S-20250501-190841-0000.png" alt="Logo" class="h-10 w-10">
+                    </div>
+                    <div>
+                        <h1 class="text-2xl font-bold uppercase">Self</h1>
+                        <h1 class="text-2xl font-bold uppercase">Leveling</h1>
+                        <p class="text-sm text-gray-600">Be Better.</p>
+                    </div>
+                </div>
+                
+                <nav class="hidden md:flex space-x-6">
+                    <a href="#" onclick="navigateTo('home-page')" class="text-gray-700 hover:text-black">HOME</a>
+                    <a href="#" onclick="navigateTo('why-page')" class="text-gray-700 hover:text-black">ABOUT</a>
+                    <a href="#" onclick="navigateTo('objective-page')" class="text-gray-700 hover:text-black">GUIDE</a>
+                </nav>
+                
+                <div class="flex items-center space-x-4">
+                    <p class="hidden md:block text-gray-700">1-800-000-0000</p>
+                    <a href="#" class="text-gray-700 hover:text-black"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="text-gray-700 hover:text-black"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="text-gray-700 hover:text-black">Log In</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Home -->
+    <div id="home-page" class="flex flex-col-reverse md:flex-row">
+        <div class="bg-black text-white w-full md:w-1/2 p-8 md:p-16 flex items-center">
+            <div>
+                <h2 class="text-5xl md:text-7xl font-bold mb-4">Improve<br>your self<br>with us!</h2>
+                <div class="mt-12">
+                    <a href="#" class="inline-block bg-gray-800 hover:bg-gray-700 text-white px-6 py-3 transition duration-300">Learn More</a>
+                </div>
+            </div>
+        </div>
+        <div class="bg-gray-900 w-full md:w-1/2 relative">
+            <img src="https://i.ibb.co.com/LdgRfpxp/IMG-20250501-191348.jpg" alt="Silhouette" class="w-full h-full object-cover opacity-50">
+        </div>
+    </div>
+
+    <!-- ABOUT -->
+    <div id="why-page" class="hidden flex flex-col md:flex-row">
+        <div class="bg-black w-full md:w-1/2 p-8">
+            <div class="relative h-full">
+                <img src="https://i.ibb.co.com/XfmR3G81/IMG-20250501-205346.jpg" alt="Abstract Profile" class="w-full h-full object-contain">
+            </div>
+        </div>
+        <div class="bg-white w-full md:w-1/2 p-8 md:p-16 flex flex-col justify-between">
+            <div>
+                <h2 class="text-4xl font-bold mb-6">WHY SELF LEVELING?</h2>
+                <p class="mb-4">Real transformation starts with small decisions. Choose our self improvement services and discover the best version of yourself that has been hidden.</p>
+                <p class="mb-4">We don't just offer temporary changes, but an ongoing journey of transformation. Our programs are designed with proven methods that have helped hundreds of people discover their hidden potential.</p>
+                <p class="mb-4">Unlike other programs that promise instant results, we focus on fundamental changes that last a lifetime. Our team of experienced mentors will be with you every step of the way, ensuring you not only achieve your goals, but also enjoy the process.</p>
+                <p class="mb-4">The best investment is an investment in yourself. Start today, and see how your life changes in the next 21 days.</p>
+                <div class="mt-8">
+                    <a href="#" class="inline-block border border-gray-300 hover:bg-gray-100 px-6 py-3 transition duration-300">ABOUT US</a>
+                </div>
+            </div>
+            <div class="mt-12 text-center">
+                <h3 class="text-3xl font-bold mb-4">Call Today for a Free Consultation</h3>
+                <p class="text-xl">1-800-000-0000</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- GUIDE -->
+    <div id="objective-page" class="hidden">
+        <div class="container mx-auto px-4 py-12">
+            <h2 class="text-4xl font-bold text-center mb-8">THE MAIN OBJECTIVE</h2>
+            <p class="text-center text-gray-600 mb-12">This is our main programs to improve yourself.</p>
+            
+            <div class="flex flex-col md:flex-row justify-center mb-8">
+                <div class="w-full md:w-1/2 p-4 flex flex-col items-center">
+                    <div class="mb-4">
+                        <img src="https://i.ibb.co.com/9kPdjDvp/HAL35312b48e078b72fd63b8042536e57864.jpg" alt="Brain Illustration" class="w-full max-w-sm mx-auto">
+                    </div>
+                    <h3 class="text-2xl font-bold text-center">INTELLIGENCE<br>IMPROVEMENT</h3>
+                </div>
+                <div class="w-full md:w-1/2 p-4 flex flex-col items-center">
+                    <div class="mb-4">
+                        <img src="https://i.ibb.co.com/200Tg3r2/HAL33d92e3b2d57c61994c0783037af6c333.jpg" alt="Physical Illustration" class="w-full max-w-sm mx-auto">
+                    </div>
+                    <h3 class="text-2xl font-bold text-center">PHYSICAL<br>IMPROVEMENT</h3>
+                </div>
+            </div>
+            
+            <div class="text-center mt-8">
+                <a href="#" class="inline-block border border-gray-300 hover:bg-gray-100 px-6 py-3 transition duration-300">View All</a>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Initialize with home page visible
+        document.addEventListener('DOMContentLoaded', function() {
+            navigateTo('home-page');
+        });
+    </script>
+</body>
+</html>
